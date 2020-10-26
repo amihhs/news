@@ -1,0 +1,102 @@
+page {
+  background-color: #F5F5F5;
+}
+.my-header {
+  padding-bottom: 15px;
+  position: relative;
+}
+.my-header .my-header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-filter: blur(8px);
+          filter: blur(8px);
+  opacity: 0.3;
+}
+.my-header .my-header-bg image {
+  width: 100%;
+  height: 100%;
+}
+.my-header .my-header-logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-top: 30px;
+}
+.my-header .my-header-logo .my-header-logo-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.my-header .my-header-logo .my-header-logo-box image {
+  width: 100%;
+  height: 100%;
+}
+.my-header .my-header-logo .my-header-name {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.my-header .my-header-info {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.my-header .my-header-info .my-header-info-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  font-size: 12px;
+  color: #808080;
+}
+.my-header .my-header-info .my-header-info-box .my-header-info-title {
+  font-size: 13px;
+  color: #333333;
+}
+.my-content .my-content-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: #FFFFFF;
+  color: #333333;
+  font-size: 14px;
+}
+.my-content .my-content-list .my-content-list-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.my-content .my-content-list .my-content-list-title .icons {
+  margin-right: 5px;
+}
+

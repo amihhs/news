@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "首页",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "tab": "/components/tab/tab",
+    "list": "/components/list/list"
+  }
+}

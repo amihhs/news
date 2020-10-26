@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['likeTap',['$event']]]]]}}" class="icon" catchTap="__e"><uni-icons vue-id="c684a944-1" type="{{like?'heart-filled':'heart'}}" size="20" color="#f07373" onVueInit="__l"></uni-icons></view>
